@@ -1,0 +1,35 @@
+﻿# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+
+# ROS 2 build outputs
+build/
+install/
+log/
+
+# Generated datasets and evaluation outputs
+/datasets/
+/output/
+/carla_ground_truth_trajectory.txt
+
+# Logs
+*.log
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
